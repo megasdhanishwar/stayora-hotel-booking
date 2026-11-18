@@ -9,6 +9,7 @@ import {
   UserRound,
   Hotel,
   MoonStar,
+  User
 } from "lucide-react";
 import Toast from "./Toast";
 
@@ -56,7 +57,7 @@ export default function Layout() {
               <span className="status-dot" /> Your next stay awaits
             </span>
             <Link to="/profile" className="avatar">
-              AM
+              <User size={16} />
             </Link>
             <button
               className="mobile-menu"
